@@ -15,7 +15,7 @@ from controllers.libro import LibrosController, LibroController, EncontrarLibroC
 app = Flask(__name__)
 # dialect+driver://username:password@host:port/database
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:123456@localhost/libreria'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://fe4uey0rfcuzw5xb:dn9e5bn1vb7v0ixq@f2fbe0zvg9j8p9ng.cbetxkdyhwsb.us-east-1.rds.amazonaws.com/ndz0d4fmmgurl6g0'
 
 api = Api(app=app)
 
